@@ -2,18 +2,18 @@
 using namespace std;
 
 int main() {
-    int number;
+    int num;
    double factorial = 1;  
 
     cout << "Enter a number to find its factorial: ";
-    cin >> number;
+    cin >> num;
 
-    for (int i = 1; i <= number; i++) {
+    for (int i = 1; i <= num; i++) {
         factorial = factorial * i;
     }
 
   
-    cout << "\n Factorial of " << number << " = " << factorial << endl;
+    cout << "\n Factorial of " << num << " = " << factorial << endl;
 
     return 0;
 }
