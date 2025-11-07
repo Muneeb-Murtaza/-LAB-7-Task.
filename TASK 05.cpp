@@ -2,16 +2,17 @@
 using namespace std;
 
 int main() {
-    double caloriesPerMinute = 3.6;
-    double caloriesBurned;
+    double CPM= 3.6;
+    double CB;
 
-    for (int minutes = 5; minutes <= 30; minutes += 5) {
-        caloriesBurned = minutes * caloriesPerMinute;
-        cout << "After " << minutes << " minutes, you have burned " << caloriesBurned << " calories." << endl;
+    for (int min = 5; min <= 30; min += 5) {
+        CB= min * CPM;
+        cout << "After " << min<< " minutes, you have burned " << CB << " calories." << endl;
     }
 
     return 0;
 }
+
 
 
 
